@@ -8,3 +8,9 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka   
 
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mitocode:mitocode@localhost:27017/mitocode?authSource=admin
